@@ -1,0 +1,40 @@
+{
+    "routing": {
+        "example1": [{
+            "ctrl_name": "callModule",
+            "method": ["get"],
+            "url": ["/example1/callModule"]
+        },{
+            "ctrl_name": "callUtilHttp",
+            "method": ["get"],
+            "url": ["/example1/callUtilHttp"]
+        },{
+            "ctrl_name": "gettingAppConf",
+            "method": ["get"],
+            "url": ["/example1/gettingAppConf"]
+        },{
+            "ctrl_name": "gettingRodVariable",
+            "method": ["get"],
+            "url": ["/example1/gettingRodVariable"]
+        },{
+            "ctrl_name": "increaseStat",
+            "method": ["get"],
+            "url": ["/example1/increaseStat"]
+        },{
+            "ctrl_name": "initCommonLog",
+            "method": ["get"],
+            "url": ["/example1/initCommonLog"]
+        }],
+
+        "example2":[{
+            "method": ["post"],
+            "url": ["/example2"]
+        }]
+    },
+
+    
+    "const_config_1":"foo",
+    "const_config_2":{
+        "foo":"bar"
+    }
+}
